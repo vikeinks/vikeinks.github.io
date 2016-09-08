@@ -2799,7 +2799,8 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #32322C; 
+//505393;
 			color: #d3d4e4;
 		}
 
@@ -2864,7 +2865,7 @@
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #505393;
+				color: #32322C;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
