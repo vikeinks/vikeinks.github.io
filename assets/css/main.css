@@ -3785,7 +3785,7 @@
 	.buttonTop:hover{
 		background-color:#ffffff;
 		transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
-		color:black;
+		font color ="black";
 	}
 
 /* Landing */
