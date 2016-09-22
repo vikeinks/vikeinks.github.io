@@ -24,11 +24,12 @@
 			$header = $('#header');
 
 		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+			$body.removeClass('is-loading');
 
 			$window.on('load', function() {
 				window.setTimeout(function() {
-					$body.addClass('is-loading');
+					$body.removeClass('is-loading');
+					$body.html('VikeInks Website');
 				}, 100);
 			});
 
