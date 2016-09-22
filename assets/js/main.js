@@ -29,6 +29,7 @@
 			$( document ).ready(function() {
     				window.setTimeout(function() {
 					$body.removeClass('is-loading');
+					$body.css('display', 'none');
 					$body.html('VikeInks Website');
 				}, 0);
 			});
