@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html>
+	
 	<head>
+		
 		<title>VikeInks</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,8 +10,19 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<style> 
+		div.galleryPoster{
+			background-color:blue;
+		}
+		div.galleryFlyer{
+			background-color:red;
+		}
+		div.galleryBanner{
+			background-color:purple;
+		}
+		</style>
 	</head>
-	<body class="landing">
+	<body class="landing"> 
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
@@ -21,6 +34,7 @@
                                                 <nav id="nav">
                                                         <ul>
                                                                 <li class="special"> <a href="index.html"><span>Home</span></a> </li>
+                                                                <li class="special"> <a href="gallery.html"><span>Gallery</span></a> </li>
                                                                 <li class="special"> <a href="products.html"><span>Our Products</span></a> </li>
                                                                 <li class="special"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhwaTVXcxxfjb-5LwDN3IBbFO5EztTImTTzqleAasy6jWnEA/viewform?embedded=true"><span>Order Now</span></a> </li>
                                                                 <li class="special"> <a href="contact.html"><span>Contact Us</span></a> </li>
@@ -33,8 +47,20 @@
 							<header class="major"> 
 								<h2> Gallery </h2>	
 							</header>
-                                                        <img src = "images/banner.jpg" style="width:300px;height:300px;">
-                                                        <img src = "vikeinks.github.io/images/astrophysics gimp3 photoshopped.png" style="width:300px;height:300px;">
+                                                        
+                                                        <div class = "galleryPoster">
+                                                        <p>Poster</p>
+                                                        <img src = "images/astrophysics gimp3 photoshopped.png" style="width:400px;height:300px;">
+                                                        <img src = "images/triboard1.png" style="width:300px;height:300px;">
+                                                        </div>
+                                                        <div class = "galleryFlyer">
+                                                        <p>Flyer</p>
+                                                        <img src = "vikeinks.github.io/images/keyclubflyer.png" style="width:200px;height:250px;">
+                                                        </div>
+                                                        <div class = "galleryBanner">
+                                                        <p>Banner</p>
+                                                        <img src = "images/banner.jpg" style="width:600px;height:300px;">
+                                                        </div>
                                                 </div>
                                         </section>
 				<!-- Footer -->

@@ -21,15 +21,17 @@
 			$body = $('body'),
 			$wrapper = $('#page-wrapper'),
 			$banner = $('#banner'),
+			$bannr = "Vikeinks Website";
 			$header = $('#header');
 
 		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
-
-			$window.on('load', function() {
-				window.setTimeout(function() {
+			$body.removeClass('is-loading');
+			
+			$( document ).ready(function() {
+    				window.setTimeout(function() {
 					$body.removeClass('is-loading');
-				}, 100);
+					$body.html($bannr);
+				}, 0);
 			});
 
 		// Mobile?
