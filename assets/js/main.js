@@ -30,7 +30,7 @@
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
 					$body.html('VikeInks Website');
-				}, 100);
+				}, 0);
 			});
 
 		// Mobile?
