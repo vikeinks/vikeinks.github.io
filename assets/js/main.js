@@ -21,6 +21,7 @@
 			$body = $('body'),
 			$wrapper = $('#page-wrapper'),
 			$banner = $('#banner'),
+			$bannr = "Vikeinks Website";
 			$header = $('#header');
 
 		// Disable animations/transitions until the page has loaded.
@@ -29,8 +30,7 @@
 			$( document ).ready(function() {
     				window.setTimeout(function() {
 					$body.removeClass('is-loading');
-					$body.css('display', 'none');
-					$body.html('VikeInks Website');
+					$body.html($bannr);
 				}, 0);
 			});
 
