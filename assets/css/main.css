@@ -55,6 +55,12 @@
 		color: white;
 	}
 
+	#picture1 {
+		display: block;
+		border: 0;
+		padding: 0;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
