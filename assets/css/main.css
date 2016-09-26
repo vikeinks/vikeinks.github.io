@@ -48,6 +48,13 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	#gallery {
+		border: 0;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1885,7 +1892,7 @@
 			text-transform: none !important;
 		}
 
-		.icon > .label {
+		*, .icon > .label {
 			display: none;
 		}
 
