@@ -1598,7 +1598,7 @@
 	section.special, article.special {
 		text-align: center;
 	}
-
+	
 	header p {
 		color: rgba(255, 255, 255, 0.5);
 		position: relative;
@@ -3782,11 +3782,11 @@
 		text-decoration: none;
     		color: white;
 	}
-/*	.buttonTop:hover{
+	.buttonTop:hover{
 		background-color:#ffffff;
 		transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
-		color:black;
-	}*/
+		color: Blue;
+	}
 
 /* Landing */
 
