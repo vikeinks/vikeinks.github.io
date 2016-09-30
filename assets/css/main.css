@@ -3783,9 +3783,15 @@
 	}
 	.buttonTop:hover{
 		background-color:#ffffff;
+		transition: background-color 0.6s ease-in-out;
+	}
+	.navText{
+		display: inline-block;
+		color: white;
+	}
+	.navText:hover{
 		color: black;
-		transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out;
-		
+		transition: color 0.6s ease-in-out;
 	}
 
 /* Landing */
