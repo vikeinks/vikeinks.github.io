@@ -3778,14 +3778,13 @@
 /* Site Map Buttons */
 	.buttonTop {
 		display: inline-block;
-    		padding: 1em;
-		border-radius: 5px;
-    		color: red;
+		border-radius: 2px;
+    		color: white;
 	}
 	.buttonTop:hover{
 		background-color:#ffffff;
 		color: black;
-		transition: background-color 0.8s ease-in-out, color 0.8s ease-in-out;
+		transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out;
 		
 	}
 
