@@ -94,13 +94,39 @@
                             <ul class="actions small">
                                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhwaTVXcxxfjb-5LwDN3IBbFO5EztTImTTzqleAasy6jWnEA/viewform?embedded=true" target="_blank" class="button special no-dec">Order now!</a></li>
 						</header>
-<!-- Sort by Type -->
-							 <section class="wrapper style5"><div id="cart">
-								 </div>
-							<button type="button" onclick="document.getElementById("demo").innerHTML = 5 + 6">Hey
-								 </button>
-								 <p id ="test">ADSFHK</p></section>
-							<p>ARGHHGHDHOSIDFJLKJ</p>
+
+	 <section class="wrapper style5"><div id="cart">
+		 </div>
+	<button type="button" onclick="document.getElementById("demo").innerHTML = 5 + 6">Hey
+		 </button>
+		 <p id ="test">ADSFHK</p>
+	<p>ARGHHGHDHOSIDFJLKJ</p>
+	<form action ="tbd">
+		<p>Product Type</p><br>
+		<select name = "type">
+			<option value = "poster">Posters</option>
+			<option value = "flyer">Flyers</option>
+			<option value = "banner">Banners</option>
+		</select>
+		oninput="total.value=parseInt(a.value)*27.3">
+		  <input type="range" id="posterNumber" name="posterNumber" value="1">
+		  *
+		  $27.3
+		  =
+		  $<output name="total" for="posterCost"></output>
+		  <br><br>
+		<input type="radio" name = "Type" value="poster">Posters<br>
+		 <input type = "radio" name = "Type" value = "flyer">Flyers<br>
+		<input type = "radio" name = "Type" value = "banner">Banners<br>
+		<p>Number</p><br>
+		<input type = "text" name = "number"><br>
+		<p>Size</p><br>
+		<input type = "text" name = "size"><br>
+		
+		<input type = "submit" value = "Submit">
+	</form>
+	</section>
+<!-- Sort by Type -->				
                 <section class="wrapper style5">
                     <div class="inner">
                         <div class="container-fluid">
