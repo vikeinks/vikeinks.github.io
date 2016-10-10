@@ -1,0 +1,23 @@
+.center{
+  text-align: center;
+}
+.underline{
+  text-decoration: underline;
+}
+.spacer{
+  height: 50px;
+}
+.sm-spacer{
+  height: 25px;
+}
+.tiny-spacer{
+  height: 10px;
+}
+section{
+  padding: 15px;
+  border: 1px solid #427CBF;
+  box-shadow: 1px 1px 1px lightblue;
+}
+.productDiv{
+
+}
