@@ -104,15 +104,12 @@
 			<option value = "flyer">Flyers</option>
 			<option value = "banner">Banners</option>
 		</select>
-		<input type="number" id="posterNumber" name="posterNumber" value="1">
-		  *
-		  $27.43
-		  = $<output name="total"></output>
-		  
+		
+		  	
 		  <br><br>
-<!--		<input type="radio" name = "Type" value="poster">Posters<br>
-		 <input type = "radio" name = "Type" value = "flyer">Flyers<br>
-		<input type = "radio" name = "Type" value = "banner">Banners<br>
+        	<input type="radio" name = "hmm" value="poster">Posters<br>
+		 <input type = "radio" name = "hmm" value = "flyer">Flyers<br>
+		<input type = "radio" name = "hmm" value = "banner">Banners<br>
 		<p>Number</p><br>
 		<input type = "text" name = "number"><br>
 		<p>Size</p><br>
@@ -120,176 +117,13 @@
 		<input type = "submit" value = "Submit">
 	</form>
 	</section>
+<!--<input type="number" id="posterNumber" name="posterNumber" value="1">
+		  *
+		  $27.43
+		  = $<output name="total"></output>
+-->
 <!-- Sort by Type -->				
-                <section class="wrapper style5">
-                    <div class="inner">
-                        <div class="container-fluid">
-                            <h2>Sorted by </h2>
-                            <ul class="nav nav-tabs">
-                                <li class="active"><a data-toggle="tab" href="#type"> Type </a></li>
-                                <!--<li><a data-toggle="tab" href="#cost"> Cost ($) </a></li> -->
-                            </ul>
-                                <div class="spacer"></div>
-
-                        <div class="tab-content">
-                            <div id="type" class="tab-pane fade in active">
-<!-- Flyers-->
-                                <div data-toggle="collapse" data-target="#flyers" class="shade">
-                                    <div class = "row center">
-								    	<div class="col-sm-4">
-                                        </div>
-								     	<div class="col-sm-4">
-                                            <h2 class = "border"> Flyers</h2>
-                                            <p> Click for prices and sizes. <br>All sizes on website are to scale.</p>
-                                        </div>
-								    </div>
-                                    <div id="flyers" class="collapse">
-                                        <div class = "row center">
-                                            <div class="col-sm-1">
-                                            </div>
-                                            <div class="col-sm-5">
-                                                <h7> 8.5" x 11" </h7> <br>
-                                                <img src="images/flyer.jpg" alt="Flyer" height="330px" width="255px" class="product-pic">
-                                                    <div id="flyerInfo">
-                                                        <p> <b> Matte: </b> $0.24 / <b> Glossy: </b> $0.41 <br> <b> Vinyl: </b> $0.82 </p>
-                                                    </div>
-                                                    </div>
-                                            <div class="col-sm-5">
-                                                <h7> Custom Sizes </h7> <br>
-                                                <img src="images/flyer.jpg" alt="Flyer" height="330px" width="255px" class="product-pic">
-                                                    <div id="flyerInfo2">
-                                                        <p> Contact us for  <br> custom sizing and prices. </p>
-                                                    </div>
-                                                    </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                    
-                                <div class="spacer"></div>
-<!-- Posters -->
-                                <div data-toggle="collapse" data-target="#posters" class="shade">
-                                    <div class = "row center">
-                                        <div class="col-sm-4">
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <h2 class = "border"> Posters</h2>
-                                            <p> Click for prices and sizes.<br>All sizes on website are to scale.</p>
-                                        </div>
-                                    </div>
-                                
-                                <div id="posters" class="collapse">
-                                    <div class = "row center">
-                                        <div class="col-sm-6">
-                                            <h7> 25" x 39" </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="250px" width="390px" class="product-pic">
-                                                <div id="posterInfo4" >
-                                                    <p> <b> Matte: </b> $1.19 / <b> Glossy: </b> $2.96 <br> <b> Vinyl: </b> $7.16 </p>
-                                                </div>
-                                                
-                                                </div>
-                                        <div class="col-sm-3">
-                                            <h7> 12" x 18" </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="180px" width="120px" class="product-pic">
-                                                <div id="posterInfo2">
-                                                    <p> <b> Matte: </b> $0.26 <br> <b> Glossy: </b> $0.66 <br> <b> Vinyl: </b> $1.59</p>
-                                                </div>
-                                                </div>
-                                        <div class="col-sm-3">
-                                            <h7> 11" x 17" </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="110px" width="170px" class="product-pic">
-                                                <div id="posterInfo">
-                                                    <p> <b> Matte: </b> $0.23 <br> <b> Glossy: </b> $0.57 <br> <b> Vinyl: </b> $1.37 </p>
-                                                </div>
-                                                </div>
-                                    </div>
-                                    <div class="tiny-spacer"> </div>
-                                    <div class = "row center">
-                                        <div class="col-sm-7">
-                                            <h7> 36" x 60" </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="360px" width="600px" class="product-pic">
-                                                <div id="posterInfo5">
-                                                    <p> <b> Matte: </b> $5.28 / <b> Glossy: </b> $13.13 / <b> Vinyl: </b> $31.71 </p>
-                                                </div>
-                                                </div>
-                                        <div class="col-sm-1"> </div>
-                                        <div class="col-sm-4">
-                                            <h7> 12" x 28" </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="120px" width="280px" class="product-pic">
-                                                <div id="posterInfo3">
-                                                    <p> <b> Matte: </b> $0.41 / <b> Glossy: </b> $1.02 <br> <b> Vinyl: </b> $2.47</p>
-                                                </div>
-                                                </div>
-                                    </div>
-                                    <div class="tiny-spacer"> </div>
-                                    <div class = "row center">
-                                        <div class="col-sm-10">
-                                            <h7> 36" x 72" </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="360px" width="720px" class="product-pic">
-                                                <div id="posterInfo6">
-                                                    <p> <b> Matte: </b> $6.34 / <b> Glossy: </b> $15.76 / <b> Vinyl: </b> $38.05</p>
-                                                </div>
-                                            </div>
-                                        <div class="col-sm-2">
-                                            <h7> Custom Sizes </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="360px" width="150px" class="product-pic">
-                                                <div id="posterInfo7">
-                                                    <p> Contact us for custom sizing and prices. </p>
-                                                </div>
-                                                </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                    <div class="spacer">
-                                    </div>
-<!--Banners-->
-                                <div data-toggle="collapse" data-target="#banners" class="shade">
-                                    <div class = "row center">
-                                        <div class="col-sm-4">
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <h2 class = "border"> Banners</h2>
-                                            <p> Click for prices and sizes. <br>All sizes on website are to scale.</p>
-                                        </div>
-                                    </div>
-                                
-                                <div id="banners" class="collapse">
-                                    <div class = "row center">
-                                        <div class="col-sm-2">
-                                            <h7> 12" x 36" </h7> <br>
-                                            <img src="images/banner1.jpg" alt="Flyer" height="360px" width="120px" class="product-pic">
-                                            <div id="bannerInfo">
-                                                <p> <b> Matte: </b> $0.53 <br> <b> Glossy: </b> $1.31 <br> <b> Vinyl: </b> $3.17 </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <h7> 24" x 72" </h7> <br>
-                                            <img src="images/banner1.jpg" alt="Flyer" height="240px" width="720px" class="product-pic">
-                                            <div id="bannerInfo2">
-                                                <p> <b> Matte: </b> $2.11 / <b> Glossy: </b> $5.25 / <b> Vinyl: </b> $12.68</p>
-                                            </div>
-                                        </div>
-                                        <div class="tiny-spacer"> </div>
-                                        <div class="col-sm-9">
-                                            <h7> Custom Sizes </h7> <br>
-                                            <img src="images/banner1.jpg" alt="Flyer" height="100px" width="750px" class="product-pic">
-                                            <div id="bannerInfo3">
-                                                <p> Contact us for custom sizing and prices. </p>
-                                            </div>
-                                        </div>
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-<!-- Sort By Cost -->
-                  <!--              <div id="cost" class="tab-pane fade">
-                                    <p> Testing </p>
-                                </div> --> 
-                            </div>
-                        </div>
-                    </section>
-                </article>
+               
 
 <!-- Footer -->
                     <footer id="footer">
@@ -302,7 +136,7 @@
                             <li>&copy; 2016 - 2017 </li><li><a href="">1280 Johnson Ave, San Jose, CA </a></li>
                         </ul>
                     </footer>
-			</div>
+			
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
