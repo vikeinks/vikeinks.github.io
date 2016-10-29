@@ -21,11 +21,6 @@
 			.border{
 			border: 1px solid black;
 			}
-			.shade{
-			padding: 25px;
-			border: 1px solid #427CBF;
-			}
-
 			.shade:hover{
 			box-shadow: 6px 6px 6px lightblue;
 			}
@@ -34,17 +29,17 @@
 			color: inherit !important;
 			}
 			.spacer{
-			height: 70px;
+			height: 0px;
 			}
 			.tiny-spacer{
-			height: 15px;
-			}
-			#banners, #posters{
-			padding: 30px;
+			height: 0px;
 			}
 			.cart{
 			height:100px;
-			{
+			}
+			.ul{
+			list-style:none;
+			}
 		</style>
 	</head>
 	<body>
@@ -79,7 +74,6 @@
 							<div class = "col-md-2">
 								Quantity
 							</div>
-						
 						</div>
 						<!--One Item-->
 						<hr />
@@ -100,11 +94,12 @@
 									<ul>
 										<li>8 by 12 Inch Poster</li>
 										<li>Paper Type:
-											<input type="radio" name="paperType" value="holder1" checked> Holder1<br>
-											<input type="radio" name="paperType" value="holder2"> Holder2<br>
-											<input type="radio" name="paperType" value="holder3"> Holder3
+											<ul>
+												<li><input type="radio" name="paperType" value="holder1" checked> Holder1</li>
+												<li><input type="radio" name="paperType" value="holder2"> Holder2</li>
+												<li><input type="radio" name="paperType" value="holder3"> Holder3</li>
+											</ul>
 										</li>
-										<li></li>
 									</ul>
 								</div>
 							</div>
