@@ -83,7 +83,7 @@
 						</div>
 						<!--One Item-->
 						<hr />
-						<div class = "row" style ="border:solid">
+						<div class = "row">
 							<!--Information-->
 							<div class = "col-md-8">
 								<!--Image-->
@@ -97,11 +97,9 @@
 									<ul>
 										<li>8 by 12 Inch Poster</li>
 										<li>Paper Type:
-											<input type="radio-button">
-											<ul>
-												<li>Holder1</li>
-												<li>Holder2</li>
-											</ul>
+											<input type="radio" name="paperType" value="holder1" checked> Holder1<br>
+											<input type="radio" name="paperType" value="holder2"> Holder2<br>
+											<input type="radio" name="paperType" value="holder3"> Holder3
 										</li>
 										<li></li>
 									</ul>
@@ -110,6 +108,7 @@
 							<!--Price-->
 							<div class = "col-md-2">
 								<ul>
+									<!--Implement thing that changes writing displayed depending on paper type-->
 									<li>$3 vinyl</li>
 									<li>$1 paper</li>
 									<li>$2 blah</li>
