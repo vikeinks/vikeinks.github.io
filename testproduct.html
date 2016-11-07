@@ -19,6 +19,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
 		<style>
+			body{background-color:lightblue; }
             .center{
                 text-align: center;
             }
@@ -57,17 +58,17 @@
 			<div id="page-wrapper">
 <!-- Header -->
 					<header id="header">
-						<h1><a href="index.html" class="no-dec">VikeInks</a></h1>
-						<nav id="nav">
-							<ul>
-				<li class="special"> <a href="index.html" class="no-dec"><span>Home</span></a> </li>
-				<li class="special"> <a href="gallery.html" class="no-dec"><span>Gallery</span></a> </li>
-                                <li class="special"> <a href="#" class="no-dec"><span>Our Products</span></a> </li>
-                                <li class="special"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhwaTVXcxxfjb-5LwDN3IBbFO5EztTImTTzqleAasy6jWnEA/viewform?embedded=true"target="_blank" class="no-dec"><span>Order Now</span></a> </li>
-                                <li class="special"> <a href="contact.html" class="no-dec"><span>Contact Us</span></a> </li>
-							</ul>
-						</nav>
-					</header>
+                                                <h1><a href="index.html">VikeInks</a></h1>
+                                                <nav id="nav">
+                                                        <ul>
+                                                                <li class = "buttonTop"> <a href="gallery.html"><span class = "navText">Gallery</span></a> </li>
+                                                                <li class = "buttonTop"> <a href="products.html"><span class = "navText">Our Products</span></a> </li>
+                                                                <li class = "buttonTop"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhwaTVXcxxfjb-5LwDN3IBbFO5EztTImTTzqleAasy6jWnEA/viewform?embedded=true" target="_blank"><span class = "navText">Order Now</span></a> </li>
+                                                                <li class = "buttonTop"> <a href="contact.html"><span class = "navText">Contact Us</span></a> </li>
+								<li class = "buttonTop"> <a href="shoppingCart/login.html"><span class = "navText">Sign-In</span></a> </li>
+                                                        </ul>
+                                                </nav>
+                                        </header>
 
 <!-- Main -->
 					<article id="main">
@@ -82,13 +83,13 @@
                         <div class="container-fluid">
                             <h2>Sorted by </h2>
                             <ul class="nav nav-tabs">
-                                <li class="active"><a data-toggle="tab" href="#type"> Flyers </a></li>
-				 <li class="active"><a data-toggle="tab" href="#type"> Posters </a></li>
-				 <li class="active"><a data-toggle="tab" href="#type"> Banners </a></li>
+                                <li class="active"><a data-toggle="tab" href="#type"> Type </a></li>
                                 <!--<li><a data-toggle="tab" href="#cost"> Cost ($) </a></li> -->
                             </ul>
                                 <div class="spacer"></div>
 
+                        <div class="tab-content">
+                            <div id="type" class="tab-pane fade in active">
 <!-- Flyers-->
                                 <div data-toggle="collapse" data-target="#flyers" class="shade">
                                     <div class = "row center">
@@ -123,10 +124,6 @@
                                 
                                     
                                 <div class="spacer"></div>
-				
-
-
-
 <!-- Posters -->
                                 <div data-toggle="collapse" data-target="#posters" class="shade">
                                     <div class = "row center">
@@ -202,7 +199,6 @@
                                 </div>
                                     <div class="spacer">
                                     </div>
-
 <!--Banners-->
                                 <div data-toggle="collapse" data-target="#banners" class="shade">
                                     <div class = "row center">
@@ -243,27 +239,21 @@
                                 </div>
                             </div>
                         </div>
-<!-- Sort By Cost -->
-                  <!--              <div id="cost" class="tab-pane fade">
-                                    <p> Testing </p>
-                                </div> --> 
                             </div>
                         </div>
-                    </section>
-                </article>
+                   
 
 <!-- Footer -->
                     <footer id="footer">
                         <ul class="icons">
                             <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
                             <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                            <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
                         </ul>
                         <ul class="copyright">
-                            <li>&copy; 2016 - 2017 </li><li><a href="">1280 Johnson Ave, San Jose, CA </a></li>
+                            <li>&copy; 2016 - 2017 VikeInks</li><li><a href="https://www.google.com/maps/place/1280+Johnson+Ave,+San+Jose,+CA+95129/@37.2997077,-122.0056577,17z/data=!3m1!4b1!4m5!3m4!1s0x808fb55b455554bb:0x60a21c7b00474681!8m2!3d37.2997035!4d-122.003469">1280 Johnson Ave, San Jose, CA </a></li>
                         </ul>
                     </footer>
-			</div>
+</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -271,7 +261,6 @@
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
 	</body>
