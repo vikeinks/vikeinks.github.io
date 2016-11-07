@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+	<head> 
+		<title> VikeInks</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.center{
+			text-align: center;
+			}
+			.border{
+			border: 1px solid black;
+			}
+			.shade:hover{
+			box-shadow: 6px 6px 6px lightblue;
+			}
+			.no-dec, .no-dec:hover, .no-dec:visited, .no-dec:active{
+			text-decoration: none !important;
+			color: inherit !important;
+			}
+			.spacer{
+			height: 0px;
+			}
+			.tiny-spacer{
+			height: 0px;
+			}
+			.cart{
+			height:100px;
+			}
+			ul, li{
+			list-style:none;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
+				<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">VikeInks</a></h1>
+					<nav id="nav">
+						<ul>
+							<li class = "buttonTop"> <a href="index.html"><span class = "navText">Home</span></a> </li>
+							<li class = "buttonTop"> <a href="gallery.html"><span class = "navText">Gallery</span></a> </li>
+							<li class = "buttonTop"> <a href="products.html"><span class = "navText">Our Products</span></a> </li>
+							<li class = "buttonTop"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhwaTVXcxxfjb-5LwDN3IBbFO5EztTImTTzqleAasy6jWnEA/viewform?embedded=true" target="_blank"><span class = "navText">Order Now</span></a> </li>
+							<li class = "buttonTop"> <a href="contact.html"><span class = "navText">Contact Us</span></a> </li>
+							<li class = "buttonTop"> <a href="shoppingCart/login.html"><span class = "navText">Sign-In</span></a> </li>
+						</ul>
+					</nav>
+				</header>
+			<!-- Main -->
+			<article id="main">
+				<section class="wrapper style5">
+					<form>
+						<!--Heading-->
+						<div class = "row" style = "margin-top:0px;margin-bot:0px;">
+							<div class = "col-md-8">
+								
+							</div>
+							<div class = "col-md-2">
+								Price
+							</div>
+							<div class = "col-md-2">
+								Quantity
+							</div>
+						</div>
+						<!--One Item-->
+						<hr/>
+						<div class = "row">
+							<input type="checkbox" name="poster8x12" value="poster8x12">
+						</div>
+						<div class = "row">
+							<!--Information-->
+							<div class = "col-md-8">
+								<!--Image-->
+								<div class = "col-md-2" style="top: 50%;transform: translateY(-50%);">
+									<a href="products.html">
+										<img src="/images/poster.jpg" alt="Poster" style="width:100%;height:120px;">
+									</a>
+								</div>
+								<!--Description-->
+								<div class = "col-md-10">
+									<ul>
+										<li><h1>8 by 12 Inch Poster</h1></li>
+										<li>Paper Type:
+											<ul>
+												<li><input type="radio" name="paperType" value="holder1" checked> Holder1</li>
+												<li><input type="radio" name="paperType" value="holder2"> Holder2</li>
+												<li><input type="radio" name="paperType" value="holder3"> Holder3</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!--Price-->
+							<div class = "col-md-2">
+								<ul>
+									<!--Implement thing that changes writing displayed depending on paper type-->
+									<li>$3 vinyl</li>
+									<li>$1 paper</li>
+									<li>$2 blah</li>
+								</ul>
+							</div>
+							<!--Count-->
+							<div class = "col-md-2">
+								<input type = "text-box" value=posterCount>
+							</div>
+						</div>
+						<hr/>
+					</form>
+				</section>
+			</article>
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/VikeInks-286105008437530/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; VikeInks</li><li>Main Page: <a href="https://vikeinks.github.io/index.html">Home</a></li>
+				</ul>
+			</footer>
+		</div>
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
+
