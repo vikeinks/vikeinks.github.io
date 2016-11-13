@@ -71,7 +71,7 @@ window.addEventListener('load', function() {
         });
 
         console.log("done!");
-      window.open("http://localhost:5000/finished.html");
+      window.open("https://vikeinks.github.io/firebase-form/finished.html");
 
 
   });
@@ -104,7 +104,7 @@ var date = document.getElementById("date");
 var submitButton = document.getElementById("finishedButton");
 // Bind Sign in button.function Product(width, length, mattePrice, glossyPrice, vinylPrice){
   this.wid = width;
-  this.leng = length;
+  this.leng = length;/*
   this.mattePrice = mattePrice;
   this.glossyPrice = glossyPrice;
   this.vinylPrice = vinylPrice;
