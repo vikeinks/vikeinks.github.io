@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> VikeInks</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <script src="scripts/fin.js"> </script>
+		<style>
+      body{
+        color: black !important;
+      }
+			.center{
+			text-align: center;
+			}
+			hr{
+				height: 0px;
+			}
+			/*
+			.border{
+			border: 1px solid black;
+			}
+			.shade:hover{
+			box-shadow: 6px 6px 6px lightblue;
+			}
+			.no-dec, .no-dec:hover, .no-dec:visited, .no-dec:active{
+			text-decoration: none !important;
+			color: inherit !important;
+			}*/
+			.sm-spacer{
+			height: 15px;
+			}
+			.big-spacer{
+			height: 50px;
+			}
+			.cart{
+			height:100px;
+			}
+			ul, li{
+			list-style:none;
+			}
+      .element{
+        margin-top: 10px;
+      }
+      .element > span {
+        margin: 20px;
+      }
+      .element > span > input{
+        width:100px;
+				color: black;
+      }
+      .spacer{
+        height: 20px;
+      }
+      .horz-spacer{
+        width: 20px;
+      }
+      .box{
+        border: solid black 2px;
+        margin-top: 5px;
+      }
+		</style>
+	</head>
+	<body>
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
+				<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">VikeInks</a></h1>
+					<nav id="nav">
+						<ul>
+							<li class = "buttonTop"> <a href="index.html"><span class = "navText">Home</span></a> </li>
+							<li class = "buttonTop"> <a href="gallery.html"><span class = "navText">Gallery</span></a> </li>
+							<li class = "buttonTop"> <a href="products.html"><span class = "navText">Our Products</span></a> </li>
+							<li class = "buttonTop"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhwaTVXcxxfjb-5LwDN3IBbFO5EztTImTTzqleAasy6jWnEA/viewform?embedded=true" target="_blank"><span class = "navText">Order Now</span></a> </li>
+							<li class = "buttonTop"> <a href="contact.html"><span class = "navText">Contact Us</span></a> </li>
+							<li class = "buttonTop"> <a href="shoppingCart/login.html"><span class = "navText">Sign-In</span></a> </li>
+						</ul>
+					</nav>
+				</header>
+			<!-- Main -->
+			<article id="main">
+				<section class="wrapper style5">
+					<div class="container">
+            <h2 class= "center" style="color:black;"> Your Order: </h2>
+            <div class="box">
+              <h4> General Information: </h4>
+              <div class="row">
+                <div class="col-sm-offset-1 col-sm-6"> Name: </div>
+                <div class="col-sm-2"> Order Required: </div>
+              </div>
+              <div class="row">
+                <div class=" col-sm-offset-1 col-sm-2"> Email Address: </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="row">
+                <h4>Products Ordered: </h4>
+              </div>
+            </div>
+            <div class="box">
+              <div class="row">
+                <h4>Status: </h4>
+              </div>
+            </div>
+            <div class="sm-spacer"></div>
+            <h2 class= "center" style="color:black;"> Thank you for ordering!</h2>
+            <p class="center"> *If you do not recieve a confirmation email within two business days, <br>please email us. Thank you. </p>
+        	</div>
+				</section>
+			</article>
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/VikeInks-286105008437530/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; VikeInks</li><li>Main Page: <a href="https://vikeinks.github.io/index.html">Home</a></li>
+					<!--<li><button><a href="JavaScript:newPopup('your link to the page just created with blank template and embedded mail chimp code');"class="myButton">Newsletter</a> </button> </li>-->
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+	</body>
+</html>

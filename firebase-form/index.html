@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> VikeInks</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAgb_AKP-YeztP91L2PWz1qYoQcft46gls",
+    authDomain: "form-fb644.firebaseapp.com",
+    databaseURL: "https://form-fb644.firebaseio.com",
+    storageBucket: "form-fb644.appspot.com",
+    messagingSenderId: "369222087575"
+  };
+  firebase.initializeApp(config);
+</script>
+<!--<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=800,width=800,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"96d790446140a43dfb4ed872f","lid":"836d1f8ff8"}) })</script>-->
+    <link rel="stylesheet" href="styles/main.css"/>
+    <script src="scripts/mainscript.js"> </script>
+		<style>
+      body{
+        color: black !important;
+      }
+			.center{
+			text-align: center;
+			}
+			hr{
+				height: 0px;
+			}
+			/*
+			.border{
+			border: 1px solid black;
+			}
+			.shade:hover{
+			box-shadow: 6px 6px 6px lightblue;
+			}
+			.no-dec, .no-dec:hover, .no-dec:visited, .no-dec:active{
+			text-decoration: none !important;
+			color: inherit !important;
+			}*/
+			.sm-spacer{
+			height: 15px;
+			}
+			.big-spacer{
+			height: 50px;
+			}
+			.cart{
+			height:100px;
+			}
+			ul, li{
+			list-style:none;
+			}
+      .element{
+        margin-top: 10px;
+      }
+      .element > span {
+        margin: 20px;
+      }
+      .element > span > input{
+        width:100px;
+				color: black;
+      }
+      .spacer{
+        height: 20px;
+      }
+      .horz-spacer{
+        width: 20px;
+      }
+		</style>
+	</head>
+	<body>
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
+				<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">VikeInks</a></h1>
+					<nav id="nav">
+						<ul>
+							<li class = "buttonTop"> <a href="index.html"><span class = "navText">Home</span></a> </li>
+							<li class = "buttonTop"> <a href="gallery.html"><span class = "navText">Gallery</span></a> </li>
+							<li class = "buttonTop"> <a href="products.html"><span class = "navText">Our Products</span></a> </li>
+							<li class = "buttonTop"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhwaTVXcxxfjb-5LwDN3IBbFO5EztTImTTzqleAasy6jWnEA/viewform?embedded=true" target="_blank"><span class = "navText">Order Now</span></a> </li>
+							<li class = "buttonTop"> <a href="contact.html"><span class = "navText">Contact Us</span></a> </li>
+							<li class = "buttonTop"> <a href="shoppingCart/login.html"><span class = "navText">Sign-In</span></a> </li>
+						</ul>
+					</nav>
+				</header>
+			<!-- Main -->
+			<article id="main">
+				<section class="wrapper style5">
+					<div class="container">
+          <h2 class= "center" style="color:black;"> VikeInk Order form </h2>
+					<form id = "vikeForms" action="#">
+
+						<section class = "form-horizontal">
+              <h4 class="underline center"> Contact Info </h4><br>
+                <div class="row form-group">
+                  <label class="control-label col-sm-2" for="name"> Name:</label>
+                  <div class="col-sm-8">
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" ng-model="name" required="">
+                  </div>
+                </div>
+								<div class = "sm-spacer"></div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="email">Email:</label>
+                  <div class="col-sm-4">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" ng-model="email" required="">
+                  </div>
+                  <label class="control-label col-sm-2" for="date">Date Required by:</label>
+                  <div class="col-sm-3">
+                    <input type="date" class="form-control" id="date" placeholder="Enter date required" ng-model="date" required="">
+                  </div>
+                </div>
+            </section>
+            <hr/>
+						<!-- Poster 8x11-->
+						<div class = "row">
+							<!--Information-->
+								<!--Image-->
+                <div class="col-md-1"> </div>
+								<div class = "col-md-2">
+                    <!--<input type="checkbox" name="poster8x12" value="poster8x12" id="poster-8-11" checked> --> Flyer 8x11
+                    <img src="/images/poster.jpg" alt="Poster" style="width:11em;height:8em;">
+								</div>
+                <div class="col-md-1"> </div>
+								<!--Description-->
+								<div class = "col-md-8">
+									<ul>
+										<li>Paper Type:
+											<ul>
+												<li class= "element">
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Matte-8-11">--> Matte ($0.80)-
+                          <span> &emsp;Quantity <input type = "number" value="0" id="matteQuant-8-11"> </span>
+                        </li>
+                        <li class= "element">
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Glossy-8-11"> --> Glossy ($1.65)-
+                          <span> &emsp;Quantity <input type = "number" value="0" id="glossyQuant-8-11"> </span>
+                        </li>
+                        <li class= "element" >
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Vinyl-8-11"> --> Vinyl ($3.95)-
+                          <span> &emsp; Quantity <input type = "number" value="0" id="vinylQuant-8-11"> </span>
+                        </li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+              </div>
+            <hr/>
+						<!-- Poster 11x17-->
+						<div class = "row">
+							<!--Information-->
+								<!--Image-->
+                <div class="col-md-1"> </div>
+								<div class = "col-md-3">
+                    <!--<input type="checkbox" name="poster11x17" value="poster11x17" id="poster-11-17" checked>--> Poster 11x17
+                    <img src="/images/poster.jpg" alt="Poster" style="width:17em;height:11em;">
+								</div>
+                <div class="col-md-1"> </div>
+								<!--Description-->
+								<div class = "col-md-7">
+									<br>
+									<ul>
+										<li>Paper Type:
+											<ul>
+												<li class= "element">
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Matte-8-11">--> Matte ($2.20)-
+                          <span> &emsp;Quantity <input type = "number" value="0" id="matteQuant-11-17"> </span>
+                        </li>
+                        <li class= "element">
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Glossy-8-11"> --> Glossy ($3.30)-
+                          <span> &emsp;Quantity <input type = "number" value="0" id="glossyQuant-11-17"> </span>
+                        </li>
+                        <li class= "element" >
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Vinyl-8-11"> --> Vinyl ($7.90)-
+                          <span> &emsp; Quantity <input type = "number" value="0" id="vinylQuant-11-17"> </span>
+                        </li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+              </div>
+            <hr/>
+						<div class = "row">
+							<!--Information-->
+								<!--Image-->
+                <div class="col-md-1"> </div>
+								<div class = "col-md-3">
+                    <!--<input type="checkbox" name="poster12x18" value="poster12x18" id="poster-12-18" checked>--> Poster 12x18
+                    <img src="/images/poster.jpg" alt="Poster" style="width:18em;height:12em;">
+								</div>
+                <div class="col-md-1"> </div>
+								<!--Description-->
+								<div class = "col-md-7">
+									<br>
+									<ul>
+										<li>Paper Type:
+											<ul>
+												<li class= "element">
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Matte-8-11">--> Matte ($2.55)-
+                          <span> &emsp;Quantity <input type = "number" value="0" id="matteQuant-12-18"> </span>
+                        </li>
+                        <li class= "element">
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Glossy-8-11"> --> Glossy ($3.80)-
+                          <span> &emsp;Quantity <input type = "number" value="0" id="glossyQuant-12-18"> </span>
+                        </li>
+                        <li class= "element" >
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Vinyl-8-11"> --> Vinyl ($9.15)-
+                          <span> &emsp; Quantity <input type = "number" value="0" id="vinylQuant-12-18"> </span>
+                        </li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+              </div>
+            <hr/>
+						<div class = "sm-spacer"></div>
+						<div class = "row">
+							<!--Information-->
+								<!--Image-->
+                <div class="col-md-1"> </div>
+								<div class = "col-md-4" >
+                  <!--  <input type="checkbox" name="poster24x18" value="poster24x18" id="poster-24-18" checked>--> Poster 24x18
+                    <img src="/images/poster.jpg" alt="Poster" style="width:24em;height:12em;">
+								</div>
+                <div class="col-md-1"> </div>
+								<!--Description-->
+								<div class = "col-md-6">
+									<br>
+									<ul>
+										<li>Paper Type:
+											<ul>
+												<li class= "element">
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Matte-8-11">--> Matte ($10.15)-
+                          <span> &emsp;Quantity <input type = "number" value="0" id="matteQuant-24-18"> </span>
+                        </li>
+                        <li class= "element">
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Glossy-8-11"> --> Glossy ($15.10)-
+                          <span> &emsp;Quantity <input type = "number" value="0" id="glossyQuant-24-18"> </span>
+                        </li>
+                        <li class= "element" >
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Vinyl-8-11"> --> Vinyl ($36.50)-
+                          <span> &emsp; Quantity <input type = "number" value="0" id="vinylQuant-24-18"> </span>
+                        </li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+              </div>
+            <hr/>
+						<div class = "sm-spacer"></div>
+						<div class = "row">
+							<!--Information-->
+								<!--Image-->
+								<div class = "col-md-6">
+                    <!-- <input type="checkbox" name="poster24x72" value="poster24x72" id="poster-24-72" checked>--> Banner 24x72
+                    <img src="/images/poster.jpg" alt="Poster" style="width:36em;height:12em;">
+								</div>
+                <div class="col-md-1"> </div>
+								<!--Description-->
+								<div class = "col-md-5">
+									<br>
+									<ul>
+										<li>Paper Type:
+											<ul>
+												<li class= "element">
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Matte-8-11">--> Matte ($13.55)-
+                          <span> &emsp;Quantity <input type = "number" value="0" id="matteQuant-24-72"> </span>
+                        </li>
+                        <li class= "element">
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Glossy-8-11"> --> Glossy ($20.15)-
+                          <span> &emsp;Quantity <input type = "number" value="0" id="glossyQuant-24-72"> </span>
+                        </li>
+                        <li class= "element" >
+                          <!--<input type="checkbox" name="paperType" value="holder1" id="Vinyl-8-11"> --> Vinyl ($48.65)-
+                          <span> &emsp; Quantity <input type = "number" value="0" id="vinylQuant-24-72"> </span>
+                        </li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+
+              </div>
+							<hr/>
+							<div class = "row">
+								<p class= "col-sm-offset-3 center" style="font-size:30px;"> Email us for custom sizes. </p>
+							</div>
+
+            <hr/>
+
+            <div class="col-sm-9"> </div>
+            <button type="submit" class="col-sm-2 btn btn-default btn-lg" id="finishedButton" onsubmit="submitForm()">Finished! </button>
+					</form>
+				</div>
+				</section>
+			</article>
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/VikeInks-286105008437530/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; VikeInks</li><li>Main Page: <a href="https://vikeinks.github.io/index.html">Home</a></li>
+					<!--<li><button><a href="JavaScript:newPopup('your link to the page just created with blank template and embedded mail chimp code');"class="myButton">Newsletter</a> </button> </li>-->
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+	</body>
+</html>
