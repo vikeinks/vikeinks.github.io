@@ -65,13 +65,14 @@ window.addEventListener('load', function() {
           firebase.database().ref('orders').push({
             name, customerEmail, daterequired, matte8x11, glossy8x11, vinyl8x11, matte11x17, glossy11x17, vinyl11x17, matte12x18, glossy12x18, vinyl12x18, matte24x18, glossy24x18, vinyl24x18, matte24x72, glossy24x72, vinyl24x72, status,
           });
+          console.log("done!");
+        window.open("https://vikeinks.github.io/firebase-form/finished.html");
+
         })
         .catch(error => {
           console.log(error);
         });
 
-        console.log("done!");
-      window.open("https://vikeinks.github.io/firebase-form/finished.html");
 
 
   });
