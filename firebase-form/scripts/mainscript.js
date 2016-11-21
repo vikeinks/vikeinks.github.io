@@ -56,3 +56,5 @@ window.addEventListener('load', function() {
         document.write(htmlText);
         console.log("done!");
   });
+
+    });
