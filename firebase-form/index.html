@@ -34,12 +34,15 @@ function newPopup(url) {
 }
 </script>
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"96d790446140a43dfb4ed872f","lid":"836d1f8ff8"}) })</script>-->
-    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="../assets/css/main.css"/>
     <script src="scripts/mainscript.js"> </script>
 		<style>
       body{
         color: black !important;
       }
+			a{
+				text-decoration: none !important;
+			}
 			.center{
 			text-align: center;
 			}
@@ -90,28 +93,18 @@ function newPopup(url) {
 	<body>
 		<!-- Page Wrapper -->
 		<div id="page-wrapper">
-				<!-- Header -->
+			<!-- Header -->
 				<header id="header">
-					<h1><a href="index.html">VikeInks</a></h1>
-					<nav id="nav">
-						<ul>
-							<li class = "buttonTop"> <a href="index.html"><span class = "navText">Home</span></a> </li>
-							<li class = "buttonTop"> <a href="gallery.html"><span class = "navText">Gallery</span></a> </li>
-							<li class = "buttonTop"> <a href="products.html"><span class = "navText">Our Products</span></a> </li>
-							<li class = "buttonTop"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhwaTVXcxxfjb-5LwDN3IBbFO5EztTImTTzqleAasy6jWnEA/viewform?embedded=true" target="_blank"><span class = "navText">Order Now</span></a> </li>
-							<li class = "buttonTop"> <a href="contact.html"><span class = "navText">Contact Us</span></a> </li>
-							<li class = "buttonTop"> <a href="shoppingCart/login.html"><span class = "navText">Sign-In</span></a> </li>
-						</ul>
-					</nav>
+					<h1 class="center">VikeInks </h1>
 				</header>
 			<!-- Main -->
 			<article id="main">
 				<section class="wrapper style5">
 					<div class="container">
-          <h2 class= "center" style="color:black;"> VikeInk Order form </h2>
 					<form id = "vikeForms" action="#">
 
 						<section class = "form-horizontal">
+							<h2 class="center">VikeInks Order Form</h2>
               <h4 class="underline center"> Contact Info </h4><br>
                 <div class="row form-group">
                   <label class="control-label col-sm-2" for="name"> Name:</label>
@@ -312,6 +305,8 @@ function newPopup(url) {
 				</div>
 				</section>
 			</article>
+		</div>
+		
 			<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
@@ -325,5 +320,13 @@ function newPopup(url) {
 			</footer>
 
 		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
