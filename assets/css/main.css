@@ -1598,7 +1598,7 @@
 	section.special, article.special {
 		text-align: center;
 	}
-	
+
 	header p {
 		color: rgba(255, 255, 255, 0.5);
 		position: relative;
@@ -1749,7 +1749,7 @@
 	textarea {
 		padding: 0.75em 1em;
 	}
-/*
+
 	input[type="checkbox"],
 	input[type="radio"] {
 		-moz-appearance: none;
@@ -1821,7 +1821,7 @@
 	input[type="radio"] + label:before {
 		border-radius: 100%;
 	}
-*/
+
 	::-webkit-input-placeholder {
 		color: rgba(255, 255, 255, 0.5) !important;
 		opacity: 1.0;
@@ -3775,24 +3775,6 @@
 			}
 
 		}
-/* Site Map Buttons */
-	.buttonTop {
-		display: inline-block;
-		border-radius: 2px;
-    		color: white;
-	}
-	.buttonTop:hover{
-		background-color:#ffffff;
-		transition: background-color 0.6s ease-in-out;
-	}
-	.navText{
-		display: inline-block;
-		color: white;
-	}
-	.navText:hover{
-		color: black;
-		transition: color 0.6s ease-in-out;
-	}
 
 /* Landing */
 
