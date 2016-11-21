@@ -38,7 +38,7 @@ window.addEventListener('load', function() {
 
       firebase.auth().signInAnonymously().then(user =>{
           firebase.database().ref('orders/'+ orderValue).push({
-            name, customerEmail, daterequired, matte8x11, glossy8x11, vinyl8x11, matte11x17, glossy11x17, vinyl11x17, matte12x18, glossy12x18, vinyl12x18, matte24x18, glossy24x18, vinyl24x18, matte24x72, glossy24x72, vinyl24x72, status,
+            name, customerEmail, daterequired, orderValue, matte8x11, glossy8x11, vinyl8x11, matte11x17, glossy11x17, vinyl11x17, matte12x18, glossy12x18, vinyl12x18, matte24x18, glossy24x18, vinyl24x18, matte24x72, glossy24x72, vinyl24x72, status,
           });
         })
         .catch(error => {
