@@ -1,268 +1,276 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title> VikeInks</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-                <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-
-		<style>
-            .center{
-                text-align: center;
-            }
-            .border{
-                border: 1px solid black;
-            }
-            .shade{
-                padding: 25px;
-                border: 1px solid #427CBF;
-            }
-
-            .shade:hover{
-                box-shadow: 6px 6px 6px lightblue;
-            }
-            .no-dec, .no-dec:hover, .no-dec:visited, .no-dec:active{
-                text-decoration: none !important;
-                color: inherit !important;
-            }
-            /*.product-pic:hover{
-                box-shadow: 5px 5px 5px #777777;
-            }*/
-            .spacer{
-                height: 70px;
-            }
-            .tiny-spacer{
-                height: 15px;
-            }
-            #banners, #posters{
-                padding: 30px;
-            }
-		</style>
-	</head>
-	<body>
-
-<!-- Page Wrapper -->
-			<div id="page-wrapper">
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">VikeInks </a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											 <li> <a href="gallery.html"><span class = "navText">Gallery</span></a> </li>
-											 <li> <a href="products.html"><span class = "navText">Our Products</span></a> </li>
-											 <li> <a href="firebase-form/index.html" target="_blank"><span class = "navText">Order Now</span></a> </li>
-											 <li> <a href="contact.html"><span class = "navText">Contact Us</span></a> </li>
-											 <li> <a href="newsletter/newsletter1.html"><span class = "navText"> News </span></a> </li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
-<!-- Sort by Type -->
-                <section class="wrapper style5">
-                    <div class="inner">
-                        <div>
-                            <h2 class="center">Our Products </h2>
-
-                                <div class="spacer"></div>
-
-                        <div class="tab-content">
-                            <div id="type" class="tab-pane fade in active">
-<!-- Flyers-->
-                                <div data-toggle="collapse" data-target="#flyers" class="shade">
-                                    <div class = "row center">
-								    	<div class="col-sm-4">
-                                        </div>
-								     	<div class="col-sm-4">
-                                            <h2 class = "border"> Flyers</h2>
-                                            <p> Click for prices and sizes. <br>All sizes on website are to scale.</p>
-                                        </div>
-								    </div>
-                                    <div id="flyers" class="cc">
-                                        <div class = "row center">
-                                            <div class="col-sm-1">
-                                            </div>
-                                            <div class="col-sm-5">
-                                                <h7> 8.5" x 11" </h7> <br>
-                                                <img src="images/flyer.jpg" alt="Flyer" height="330px" width="255px" class="product-pic">
-                                                    <div id="flyerInfo">
-                                                        <p> <b> Matte: </b> $2.34 / <b> Glossy: </b> $2.53 <br> <!--<b> Vinyl: </b> $0.82--> </p>
-                                                    </div>
-                                                    </div>
-                                            <div class="col-sm-5">
-                                                <h7> Custom Sizes </h7> <br>
-                                                <img src="images/flyer.jpg" alt="Flyer" height="330px" width="255px" class="product-pic">
-                                                    <div id="flyerInfo2">
-                                                        <p> Contact us for  <br> custom sizing and prices. </p>
-                                                    </div>
-                                                    </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="spacer"></div>
-<!-- Posters -->
-                                <div data-toggle="collapse" data-target="#posters" class="shade">
-                                    <div class = "row center">
-                                        <div class="col-sm-4">
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <h2 class = "border"> Posters</h2>
-                                            <p> Click for prices and sizes.<br>All sizes on website are to scale.</p>
-                                        </div>
-                                    </div>
-
-                                <div id="posters" class="cc">
-                                    <div class = "row center">
-                                        <div class="col-sm-6">
-                                            <h7> 25" x 39" </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="250px" width="390px" class="product-pic">
-                                                <div id="posterInfo4" >
-                                                    <p> <b> Matte: </b> $13.93 / <b> Glossy: </b> $32.50 <br> <b> Vinyl: </b> $39.00 </p>
-                                                </div>
-
-                                                </div>
-                                        <div class="col-sm-3">
-                                            <h7> 12" x 18" </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="180px" width="120px" class="product-pic">
-                                                <div id="posterInfo2">
-                                                    <p> <b> Matte: </b> $5.40 <br> <b> Glossy: </b> $5.84 <br> <!--<b> Vinyl: </b> $1.59--></p>
-                                                </div>
-                                                </div>
-                                        <div class="col-sm-3">
-                                            <h7> 11" x 17" </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="110px" width="170px" class="product-pic">
-                                                <div id="posterInfo">
-                                                    <p> <b> Matte: </b> $4.68 <br> <b> Glossy: </b> $5.05 <br> <!--<b> Vinyl: </b> $1.37 --></p>
-                                                </div>
-                                                </div>
-                                    </div>
-                                    <div class="tiny-spacer"> </div>
-                                    <div class = "row center">
-                                        <div class="col-sm-7">
-                                            <h7> 36" x 60" </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="360px" width="600px" class="product-pic">
-                                                <div id="posterInfo5">
-                                                    <p> <b> Matte: </b> $30.86 / <b> Glossy: </b> $43.20/ <b> Vinyl: </b> $54.00 </p>
-                                                </div>
-                                                </div>
-                                        <div class="col-sm-1"> </div>
-					    <!--
-                                        <div class="col-sm-4">
-						<!--notfixed
-                                            <h7> 12" x 28" </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="120px" width="280px" class="product-pic">
-                                                <div id="posterInfo3">
-                                                    <p> <b> Matte: </b> $1.64 / <b> Glossy: </b> $3.39 <br> <b> Vinyl: </b> $7.51</p>
-                                                </div>
-                                             </div>-->
-                                    </div>
-                                    <div class="tiny-spacer"> </div>
-                                    <div class = "row center">
-                                        <div class="col-sm-10">
-                                            <h7> 36" x 72" </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="360px" width="720px" class="product-pic">
-                                                <div id="posterInfo6">
-                                                    <p> <b> Matte: </b> $37.03 / <b> Glossy: </b> $86.40 / <b> Vinyl: </b> $92.57</p>
-                                                </div>
-                                            </div>
-                                        <div class="col-sm-2">
-                                            <h7> Custom Sizes </h7> <br>
-                                            <img src="images/poster.jpg" alt="poster" height="360px" width="150px" class="product-pic">
-                                                <div id="posterInfo7">
-                                                    <p> Contact us for custom sizing and prices. </p>
-                                                </div>
-                                                </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                    <div class="spacer">
-                                    </div>
-				</div>
-<!--Banners-->
-                                <div data-toggle="collapse" data-target="#banners" class="shade">
-                                    <div class = "row center">
-                                        <div class="col-sm-4">
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <h2 class = "border"> Banners</h2>
-                                            <p> Click for prices and sizes. <br>All sizes on website are to scale.</p>
-                                        </div>
-                                    </div>
-
-                                <div id="banners" class="cc">
-                                    <div class = "row center">
-					    <!--notfixed
-                                        <div class="col-sm-2">
-						<!--notfixed
-                                            <h7> 12" x 36" </h7> <br>
-                                            <img src="images/banner1.jpg" alt="Flyer" height="360px" width="120px" class="product-pic">
-                                            <div id="bannerInfo">
-                                                <p> <b> Matte: </b> $0.53 <br> <b> Glossy: </b> $1.31 <br> <b> Vinyl: </b> $3.17 </p>
-                                            </div>
-                                        </div>
-					-->
-                                        <div class="col-sm-9">
-                                            <h7> 24" x 72" </h7> <br>
-                                            <img src="images/banner1.jpg" alt="Flyer" height="240px" width="720px" class="product-pic">
-                                            <div id="bannerInfo2">
-                                                <p> <b> Matte: </b> $24.69 / <b> Glossy: </b> $57.60 / <b> Vinyl: </b> $69.12</p>
-                                            </div>
-                                        </div>
-                                        <div class="tiny-spacer"> </div>
-                                        <div class="col-sm-9">
-                                            <h7> Custom Sizes </h7> <br>
-                                            <img src="images/banner1.jpg" alt="Flyer" height="100px" width="750px" class="product-pic">
-                                            <div id="bannerInfo3">
-                                                <p> Contact us for custom sizing and prices. </p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
+   <head>
+      <title> VikeInks</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+      <link rel="stylesheet" href="assets/css/main.css" />
+      <!--[if lte IE 8]>
+      <link rel="stylesheet" href="assets/css/ie8.css" />
+      <![endif]-->
+      <!--[if lte IE 9]>
+      <link rel="stylesheet" href="assets/css/ie9.css" />
+      <![endif]-->
+      <style>
+         .center{
+         text-align: center;
+         }
+         .border{
+         border: 1px solid black;
+         }
+         .shade{
+         padding: 25px;
+         border: 1px solid #427CBF;
+         }
+         .shade:hover{
+         box-shadow: 6px 6px 6px lightblue;
+         }
+         .no-dec, .no-dec:hover, .no-dec:visited, .no-dec:active{
+         text-decoration: none !important;
+         color: inherit !important;
+         }
+         /*.product-pic:hover{
+         box-shadow: 5px 5px 5px #777777;
+         }*/
+         .spacer{
+         height: 70px;
+         }
+         .tiny-spacer{
+         height: 15px;
+         }
+         #banners, #posters{
+         padding: 30px;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- Page Wrapper -->
+      <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header">
+         <h1><a href="index.html">VikeInks </a></h1>
+         <nav id="nav">
+            <ul>
+               <li class="special">
+                  <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                  <div id="menu">
+                     <ul>
+                        <li> <a href="gallery.html"><span class = "navText">Gallery</span></a> </li>
+                        <li> <a href="products.html"><span class = "navText">Our Products</span></a> </li>
+                        <li> <a href="firebase-form/index.html" target="_blank"><span class = "navText">Order Now</span></a> </li>
+                        <li> <a href="contact.html"><span class = "navText">Contact Us</span></a> </li>
+                        <li> <a href="newsletter/newsletter1.html"><span class = "navText"> News </span></a> </li>
+                     </ul>
+                  </div>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <!-- Sort by Type -->
+      <section class="wrapper style5">
+         <div class="inner">
+            <div>
+               <h2 class="center">Our Products </h2>
+               <div class="spacer"></div>
+               <div class="tab-content">
+                  <div id="type" class="tab-pane fade in active">
+                     <!-- Flyers-->
+                     <div data-toggle="collapse" data-target="#flyers" class="shade">
+                        <div class = "row center">
+                           <div class="col-sm-4">
+                           </div>
+                           <div class="col-sm-4">
+                              <h2 class = "border"> Flyers</h2>
+                              <p> Click for prices and sizes. <br>All sizes on website are to scale.</p>
+                           </div>
                         </div>
-                            </div>
+                        <div id="flyers" class="cc">
+                           <div class = "row center">
+                              <div class="col-sm-1">
+                              </div>
+                              <div class="col-sm-5">
+                                 <h7> 8.5" x 11" </h7>
+                                 <br>
+                                 <img src="images/flyer.jpg" alt="Flyer" height="330px" width="255px" class="product-pic">
+                                 <div id="flyerInfo">
+                                    <p>
+                                       <b> Matte: </b> $2.34 / <b> Glossy: </b> $2.53 <br> <!--<b> Vinyl: </b> $0.82--> 
+                                    </p>
+                                 </div>
+                              </div>
+                              <div class="col-sm-5">
+                                 <h7> Custom Sizes </h7>
+                                 <br>
+                                 <img src="images/flyer.jpg" alt="Flyer" height="330px" width="255px" class="product-pic">
+                                 <div id="flyerInfo2">
+                                    <p> Contact us for  <br> custom sizing and prices. </p>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-		</section>
-
-<!-- Footer -->
-                    <footer id="footer">
-                        <ul class="icons">
-                            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                        </ul>
-                        <ul class="copyright">
-                            <li>&copy; 2016 - 2017 VikeInks</li><li><a href="https://www.google.com/maps/place/1280+Johnson+Ave,+San+Jose,+CA+95129/@37.2997077,-122.0056577,17z/data=!3m1!4b1!4m5!3m4!1s0x808fb55b455554bb:0x60a21c7b00474681!8m2!3d37.2997035!4d-122.003469">1280 Johnson Ave, San Jose, CA </a></li>
-                        </ul>
-                    </footer>
-
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+                     </div>
+                     <div class="spacer"></div>
+                     <!-- Posters -->
+                     <div data-toggle="collapse" data-target="#posters" class="shade">
+                        <div class = "row center">
+                           <div class="col-sm-4">
+                           </div>
+                           <div class="col-sm-4">
+                              <h2 class = "border"> Posters</h2>
+                              <p> Click for prices and sizes.<br>All sizes on website are to scale.</p>
+                           </div>
+                        </div>
+                        <div id="posters" class="cc">
+                           <div class = "row center">
+                              <div class="col-sm-6">
+                                 <h7> 25" x 39" </h7>
+                                 <br>
+                                 <img src="images/poster.jpg" alt="poster" height="250px" width="390px" class="product-pic">
+                                 <div id="posterInfo4" >
+                                    <p> <b> Matte: </b> $13.93 / <b> Glossy: </b> $32.50 <br> <b> Vinyl: </b> $39.00 </p>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <h7> 12" x 18" </h7>
+                                 <br>
+                                 <img src="images/poster.jpg" alt="poster" height="180px" width="120px" class="product-pic">
+                                 <div id="posterInfo2">
+                                    <p>
+                                       <b> Matte: </b> $5.40 <br> <b> Glossy: </b> $5.84 <br> <!--<b> Vinyl: </b> $1.59-->
+                                    </p>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <h7> 11" x 17" </h7>
+                                 <br>
+                                 <img src="images/poster.jpg" alt="poster" height="110px" width="170px" class="product-pic">
+                                 <div id="posterInfo">
+                                    <p>
+                                       <b> Matte: </b> $4.68 <br> <b> Glossy: </b> $5.05 <br> <!--<b> Vinyl: </b> $1.37 -->
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tiny-spacer"> </div>
+                           <div class = "row center">
+                              <div class="col-sm-7">
+                                 <h7> 36" x 60" </h7>
+                                 <br>
+                                 <img src="images/poster.jpg" alt="poster" height="360px" width="600px" class="product-pic">
+                                 <div id="posterInfo5">
+                                    <p> <b> Matte: </b> $30.86 / <b> Glossy: </b> $43.20/ <b> Vinyl: </b> $54.00 </p>
+                                 </div>
+                              </div>
+                              <div class="col-sm-1"> </div>
+                              <div class="col-sm-4">
+                                 <!--notfixed-->
+                                 <h7> 12" x 28" </h7>
+                                 <br>
+                                 <img src="images/poster.jpg" alt="poster" height="120px" width="280px" class="product-pic">
+                                 <div id="posterInfo3">
+                                    <p>
+                                       <b> Matte: </b> $5.40 / <b> Glossy: </b> $5.84 <br> <!--<b> Vinyl: </b> $7.51-->
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tiny-spacer"> </div>
+                           <div class = "row center">
+                              <div class="col-sm-10">
+                                 <h7> 36" x 72" </h7>
+                                 <br>
+                                 <img src="images/poster.jpg" alt="poster" height="360px" width="720px" class="product-pic">
+                                 <div id="posterInfo6">
+                                    <p> <b> Matte: </b> $37.03 / <b> Glossy: </b> $86.40 / <b> Vinyl: </b> $92.57</p>
+                                 </div>
+                              </div>
+                              <div class="col-sm-2">
+                                 <h7> Custom Sizes </h7>
+                                 <br>
+                                 <img src="images/poster.jpg" alt="poster" height="360px" width="150px" class="product-pic">
+                                 <div id="posterInfo7">
+                                    <p> Contact us for custom sizing and prices. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="spacer">
+                     </div>
+                  </div>
+                  <!--Banners-->
+                  <div data-toggle="collapse" data-target="#banners" class="shade">
+                     <div class = "row center">
+                        <div class="col-sm-4">
+                        </div>
+                        <div class="col-sm-4">
+                           <h2 class = "border"> Banners</h2>
+                           <p> Click for prices and sizes. <br>All sizes on website are to scale.</p>
+                        </div>
+                     </div>
+                     <div id="banners" class="cc">
+                        <div class = "row center">
+                           <!--notfixed
+                              <div class="col-sm-2">
+                              <!--notfixed
+                                  <h7> 12" x 36" </h7> <br>
+                                  <img src="images/banner1.jpg" alt="Flyer" height="360px" width="120px" class="product-pic">
+                                  <div id="bannerInfo">
+                                      <p> <b> Matte: </b> $0.53 <br> <b> Glossy: </b> $1.31 <br> <b> Vinyl: </b> $3.17 </p>
+                                  </div>
+                              </div>
+                              -->
+                           <div class="col-sm-9">
+                              <h7> 24" x 72" </h7>
+                              <br>
+                              <img src="images/banner1.jpg" alt="Flyer" height="240px" width="720px" class="product-pic">
+                              <div id="bannerInfo2">
+                                 <p> <b> Matte: </b> $24.69 / <b> Glossy: </b> $57.60 / <b> Vinyl: </b> $69.12</p>
+                              </div>
+                           </div>
+                           <div class="tiny-spacer"> </div>
+                           <div class="col-sm-9">
+                              <h7> Custom Sizes </h7>
+                              <br>
+                              <img src="images/banner1.jpg" alt="Flyer" height="100px" width="750px" class="product-pic">
+                              <div id="bannerInfo3">
+                                 <p> Contact us for custom sizing and prices. </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer id="footer">
+         <ul class="icons">
+            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+         </ul>
+         <ul class="copyright">
+            <li>&copy; 2016 - 2017 VikeInks</li>
+            <li><a href="https://www.google.com/maps/place/1280+Johnson+Ave,+San+Jose,+CA+95129/@37.2997077,-122.0056577,17z/data=!3m1!4b1!4m5!3m4!1s0x808fb55b455554bb:0x60a21c7b00474681!8m2!3d37.2997035!4d-122.003469">1280 Johnson Ave, San Jose, CA </a></li>
+         </ul>
+      </footer>
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+   </body>
 </html>
